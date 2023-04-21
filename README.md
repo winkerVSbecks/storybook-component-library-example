@@ -1,22 +1,19 @@
-<h1>React Vite (TS)</h1>
+# React (TS) Component Library with tsup and Storybook
 
-<p>
-  This is project generated to serve as a reproduction starter for Storybook.
-</p>
+Install dependencies:
 
-<a
-  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-vite/default-ts/after-storybook?preset=node"
-  >View it in Stackblitz</a
->
+```bash
+yarn
+```
 
-<h3>Testing instructions</h3>
+Run Storybook:
 
-<p>Install dependencies:</p>
-<pre>
-  yarn
-</pre>
+```bash
+yarn storybook
+```
 
-<p>Run Storybook:</p>
-<pre>
-  yarn storybook
-</pre>
+Build library:
+
+```bash
+yarn build
+```
